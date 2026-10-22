@@ -2,7 +2,7 @@
 
 - **Họ tên:Nguyễn Đức Hiếu**
 - **Lớp:CNTT2**
-- **Link repository:**
+- **Link repository:https://github.com/hn3443723-max/CNTT2_Nhap-mon-CNTT_Ontap-Ngay3.git**
 - **Hệ điều hành (Windows/macOS):Windows**
 
 ## Bài 1. README.md
@@ -21,8 +21,9 @@
 ## Bài 2. Excel
 
 > Công thức được chấm trực tiếp trên file `data/hoc_phi_thang_10.xlsx`.
-Cột ten_khoa: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, 2, FALSE)
-Cột hoc_phi: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, , FALSE)
++ *Cột ten_khoa: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, 2, FALSE)*
++ *Cột hoc_phi: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, 3, FALSE)*
+  
 - **Số dòng còn hiển thị sau khi lọc (câu d):7**
 - **Câu e – Vì sao vùng tra cứu cần dấu $:giúp khóa lại vùng dữ liệu sao chép để không bị trôi dòng,nếu không có dấu $ vùng dữ liệu tham chiếu sẽ bị trôi khi đó sẽ có lỗi #N/A**
 
