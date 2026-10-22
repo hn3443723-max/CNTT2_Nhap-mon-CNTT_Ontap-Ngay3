@@ -21,9 +21,10 @@
 ## Bài 2. Excel
 
 > Công thức được chấm trực tiếp trên file `data/hoc_phi_thang_10.xlsx`.
-
-- **Số dòng còn hiển thị sau khi lọc (câu d):**
-- **Câu e – Vì sao vùng tra cứu cần dấu $:**
+Cột ten_khoa: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, 2, FALSE)
+Cột hoc_phi: =VLOOKUP(C2, KhoaHoc!$A$2:$C$8, , FALSE)
+- **Số dòng còn hiển thị sau khi lọc (câu d):7**
+- **Câu e – Vì sao vùng tra cứu cần dấu $:giúp khóa lại vùng dữ liệu sao chép để không bị trôi dòng,nếu không có dấu $ vùng dữ liệu tham chiếu sẽ bị trôi khi đó sẽ có lỗi #N/A**
 
 ## Tự chấm (điền sau khi có đáp án)
 
