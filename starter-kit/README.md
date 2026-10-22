@@ -16,3 +16,5 @@ Dự án **Website Quản lý Trung tâm Tiếng Anh (TTA)** là hệ thống s�
 
 ## Xem nội dung dự án 
 Get-ChildItem  -Force
+- [x] Giới thiệu dự án website
+- [ ] Hoàn thiện bảng học phí tháng 10 
